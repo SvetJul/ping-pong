@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>pong-service</artifactId>
+    <artifactId>msg-service-one</artifactId>
 
 
 </project>
