@@ -21,7 +21,7 @@ public class MsgProcessor {
 
     @Transformer(inputChannel = Processor.INPUT, outputChannel = Processor.OUTPUT)
     public Object transform(Object message) throws InterruptedException {
-        System.out.println(" " + message);
+        System.out.println(inputChannel + " " + message);
         Thread.sleep(2000);
         return iteration.getIncremented();
     }
